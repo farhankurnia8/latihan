@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+background-color: aliceblue;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: url(potosekolah.png);
+    background-size: cover;
+}
+
+.header img{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(potosekolah.png);
+    background-size: cover;
+    color: #abab0a;
+    text-align: center;
+}
+
+.search{
+    margin: auto;
+    width: 10px;
+    height: 30px;
+    top: 20%;
+    bottom: 50%;
+    position: absolute;
+    display: inline-flex;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+
+.material-symbols-outlined {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid greenyellow;
+    border-right: none;
+    width: 100px;
+    height: 30px;
+    
+}
+
+.search input{
+    width: 200px;
+    border: 2px solid greenyellow;
+    font-size: 30px;
+    border-left: none;
+    background: white;
+    padding: 12px 10px 12px 5px;
+    outline: none;
+}
+.search input:focus{
+    width: 550px;
+}
+
+.kotak{
+    width: 400px;
+    height: 50px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+    margin-bottom: 10px;
+    color: #abab0a;
+}
+
+.kotak:hover{
+    background-color: yellow;
+}
+
